@@ -1,4 +1,4 @@
-package com.warriors.projectmanagerapi.Models;
+package com.warriors.projectmanagerapi.entity;
 
 public enum TaskStatus {
     TO_DO,

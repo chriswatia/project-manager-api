@@ -1,11 +1,11 @@
-package com.warriors.projectmanagerapi.Controllers;
+package com.warriors.projectmanagerapi.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.warriors.projectmanagerapi.Models.Task;
-import com.warriors.projectmanagerapi.Services.TaskService;
+import com.warriors.projectmanagerapi.entity.Task;
+import com.warriors.projectmanagerapi.service.TaskService;
 
 
 @RestController

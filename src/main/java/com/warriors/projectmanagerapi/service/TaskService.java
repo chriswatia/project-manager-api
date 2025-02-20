@@ -1,10 +1,10 @@
-package com.warriors.projectmanagerapi.Services;
+package com.warriors.projectmanagerapi.service;
 
 import com.warriors.projectmanagerapi.Configuration.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.warriors.projectmanagerapi.Models.Task;
-import com.warriors.projectmanagerapi.Repository.TaskRepository;
+import com.warriors.projectmanagerapi.entity.Task;
+import com.warriors.projectmanagerapi.repository.TaskRepository;
 
 
 @Service

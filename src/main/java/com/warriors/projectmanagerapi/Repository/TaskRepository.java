@@ -1,15 +1,14 @@
-package com.warriors.projectmanagerapi.Repository;
+package com.warriors.projectmanagerapi.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.warriors.projectmanagerapi.Models.Task;
-import com.warriors.projectmanagerapi.Models.TaskStatus;
+import com.warriors.projectmanagerapi.entity.Task;
+import com.warriors.projectmanagerapi.entity.TaskStatus;
 
 import java.util.Date;
-import java.util.List;
 
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {

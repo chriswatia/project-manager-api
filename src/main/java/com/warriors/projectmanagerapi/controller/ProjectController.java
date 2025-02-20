@@ -1,16 +1,16 @@
-package com.warriors.projectmanagerapi.Controllers;
+package com.warriors.projectmanagerapi.controller;
 
-import com.warriors.projectmanagerapi.Models.Task;
-import com.warriors.projectmanagerapi.Models.TaskStatus;
+import com.warriors.projectmanagerapi.entity.Task;
+import com.warriors.projectmanagerapi.entity.TaskStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.warriors.projectmanagerapi.Models.Project;
-import com.warriors.projectmanagerapi.Models.TaskSummary;
-import com.warriors.projectmanagerapi.Services.ProjectService;
+import com.warriors.projectmanagerapi.entity.Project;
+import com.warriors.projectmanagerapi.entity.TaskSummary;
+import com.warriors.projectmanagerapi.service.ProjectService;
 
 import java.util.Date;
 import java.util.List;

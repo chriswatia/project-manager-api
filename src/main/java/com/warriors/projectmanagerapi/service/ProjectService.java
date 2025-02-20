@@ -1,17 +1,17 @@
-package com.warriors.projectmanagerapi.Services;
+package com.warriors.projectmanagerapi.service;
 
 import com.warriors.projectmanagerapi.Configuration.ResourceNotFoundException;
-import com.warriors.projectmanagerapi.Models.Task;
-import com.warriors.projectmanagerapi.Models.TaskStatus;
-import com.warriors.projectmanagerapi.Models.TaskSummary;
-import com.warriors.projectmanagerapi.Repository.TaskRepository;
+import com.warriors.projectmanagerapi.entity.Task;
+import com.warriors.projectmanagerapi.entity.TaskStatus;
+import com.warriors.projectmanagerapi.entity.TaskSummary;
+import com.warriors.projectmanagerapi.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import com.warriors.projectmanagerapi.Models.Project;
-import com.warriors.projectmanagerapi.Repository.ProjectRepository;
+import com.warriors.projectmanagerapi.entity.Project;
+import com.warriors.projectmanagerapi.repository.ProjectRepository;
 
 import java.util.ArrayList;
 import java.util.Date;

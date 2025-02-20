@@ -1,8 +1,9 @@
-package com.warriors.projectmanagerapi.Models;
+package com.warriors.projectmanagerapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
